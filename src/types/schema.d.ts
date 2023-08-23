@@ -18,23 +18,23 @@ type Rule = ValidationRule & {}
 
 declare interface FormItem extends Partial<typeof FormItemProps> {
     type?:
-    | 'input'
-    | 'input-password'
-    | 'textarea'
-    | 'select'
-    | 'radio'
-    | 'checkbox'
-    | 'input-number'
-    | 'element-input-number'
-    | 'input-range'
-    | 'switch'
-    | 'component'
-    | 'cascader'
-    | 'department'
-    | 'select-department'
-    | 'select-district'
-    | 'date-picker'
-    | VNode
+        | 'input'
+        | 'input-password'
+        | 'textarea'
+        | 'select'
+        | 'radio'
+        | 'checkbox'
+        | 'input-number'
+        | 'element-input-number'
+        | 'input-range'
+        | 'switch'
+        | 'component'
+        | 'cascader'
+        | 'department'
+        | 'select-department'
+        | 'select-district'
+        | 'date-picker'
+        | VNode
     label?: string // 表单标签
     field: string | Array<string> // 表单字段
     value: any // 表单默认值
